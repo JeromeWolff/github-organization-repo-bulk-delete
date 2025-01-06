@@ -6,7 +6,7 @@
 param (
     [string]$GitHubToken,            # Fine-grained personal access token
     [string]$OrganizationName,       # GitHub organization name
-    [string]$RepoPrefix			         # Prefix for repositories to delete
+    [string]$RepoPrefix			     # Prefix for repositories to delete
 )
 
 # Check for required inputs
